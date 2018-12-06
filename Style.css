@@ -1,0 +1,78 @@
+head {
+background-color: #ffffff;
+border: #cccccc;
+
+}
+h2 {
+    font-size: 40 px;
+    text-align: left;
+
+}
+
+body {
+font: 40px;
+background-color: blue;
+border-style: double;
+float: righ;
+}
+h1 {
+    text-align: left;
+    font-size: 40px;
+    color: blue;
+    margin-right: 20px'
+}
+p {
+    text-align: left;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 150px;
+    margin-left: 80px;
+  }
+image {
+     width: 200px;
+     height: 200px;
+    margin-right: 20px;
+    float: left;
+}
+
+    button:hover {
+        background: grey;
+        color: lime;
+        border: 8px blueviolet;
+        cursor: pointer;
+    }
+
+    nav {
+        text-align: right;
+        
+    }
+
+.name {
+        float: left;
+    }
+.links {
+        margin-top: center;
+    }
+.container {
+     border-radius: 5px;
+     background-color: lightskyblue;
+     padding: 40px;
+     text-align: center;
+     border-spacing: 15px;
+}
+
+.a {
+  border: 8px solid slateblue;
+  background-color: black;
+  width: 1500px;
+  font-size: 35px;
+  text-align: center;
+  box-sizing: border-box;
+  
+   
+}
+.portfolio {
+    text-align: center;
+    
+}
