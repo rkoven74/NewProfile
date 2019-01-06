@@ -1,25 +1,23 @@
-head {
-background-color: #ffffff;
-border: #cccccc;
-
+title {
+    color: black;
+    font: 55px;
 }
 h2 {
-    font-size: 40 px;
+    font-size: 45px;
     text-align: left;
-
+    color: white;
 }
-
 body {
 font: 40px;
-background-color: blue;
+background-color: slategrey;
 border-style: double;
-float: righ;
+float: left;
 }
 h1 {
     text-align: left;
     font-size: 40px;
-    color: blue;
-    margin-right: 20px'
+    color:black;
+    margin-left: 20px'
 }
 p {
     text-align: left;
@@ -27,52 +25,63 @@ p {
     margin-top: 25px;
     margin-bottom: 25px;
     margin-right: 150px;
-    margin-left: 80px;
+    margin-left: 15px;
   }
-image {
+.image {
      width: 200px;
      height: 200px;
-    margin-right: 20px;
-    float: left;
-}
+     text-align: left;
+   }
 
-    button:hover {
+button:hover {
         background: grey;
         color: lime;
         border: 8px blueviolet;
         cursor: pointer;
     }
-
-    nav {
-        text-align: right;
-        
-    }
-
-.name {
-        float: left;
-    }
+ 
 .links {
-        margin-top: center;
+        margin-top: right;
+        text-align: right;
     }
 .container {
      border-radius: 5px;
      background-color: lightskyblue;
      padding: 40px;
-     text-align: center;
+     text-align: left;
      border-spacing: 15px;
+     
 }
 
 .a {
   border: 8px solid slateblue;
   background-color: black;
-  width: 1500px;
+  width: 1575px;
   font-size: 35px;
-  text-align: center;
-  box-sizing: border-box;
-  
+  border-image: center;
    
 }
 .portfolio {
-    text-align: center;
+    text-align: left;
     
+}
+h3 {
+    font: 45px;
+    color: blue;
+
+}
+.work {
+    text-align: center;
+    height: 200px;
+    width: 200px;
+}
+.main-port-container {
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding:45px;
+    width:100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
 }
